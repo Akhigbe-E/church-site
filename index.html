@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Church name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/images/BBC-OFFICIAL-LOGO-W.png">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/style/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -12,81 +14,94 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span> 
-                </button>
-                <a class="navbar-brand" href="#"><img src="#" alt="churchLogo"></a>
-              </div>
+        <div class="headMan">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" style="margin-top: 2em" data-toggle="collapse"
+                            data-target="#myNavbar">
+                            <span class="icon-bar" style="background-color: white; width: 32px;
+                        height: 3px; "></span>
+                            <span class="icon-bar" style="background-color: white; width: 32px;
+                        height: 3px; margin-top: .5em;"></span>
+                            <span class="icon-bar" style="background-color: white; width: 32px;
+                        height: 3px; margin-top: .5em;"></span>
 
-              <div class="collapse navbar-collapse navbar-right"  id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Page 1</a></li>
-                  <li><a href="#">Page 2</a></li> 
-                  <li><a href="#">Page 3</a></li> 
-                </ul>
-              </div>
-            </div>
-        </nav>
-        <div class="hero-section container">
-            <div class="hero-text">
-                <div class="hero-welcome">
-                    <p>Welcome to</p>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="./assets/images/BBC-OFFICIAL-LOGO-W.png"
+                                alt="churchLogo"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav custom-nav">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./pages/sermons.html">Sermons</a></li>
+                            <li><a href="./pages/who-are-we.html">Who We Are</a></li>
+                            <li><a href="./pages/event.html">Events</a></li>
+                            <!-- <li><a href="./pages/staff.html">Staff</a></li>  -->
+                            <li><a href="./pages/contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="church-name">
-                    <p>CHURCH NAME</p>
-                </div>
-                <div class="church-motto">
-                    <p>Love God. Love People</p>
-                </div>
-                <div class="church-location">
-                    <img src="" alt="location Icon">
-                    <p>123 Church St. in AnyTown</p>
-                </div>
-                <div class="service-times">
-                    <img src="" alt="Clock">
-                    <p>Service Times: Sundays at 9:00am, 10:30am, and 7:30pm</p>
+            </nav>
+            <div class="hero-section container">
+                <div class="hero-text">
+                    <div class="hero-welcome">
+                        <p>Welcome to</p>
+                    </div>
+                    <div class="church-name">
+                        <p>BETHEL BIBLE CHURCH</p>
+                    </div>
+                    <div class="church-motto">
+                        <p>Raising kingdom builders</p>
+                    </div>
+                    <div class="church-location">
+                        <img src="./assets/images/location.png" alt="location Icon">
+                        <p>16 Adenowo St, Ikate, Lagos</p>
+                    </div>
+                    <div class="service-times">
+                        <img src="./assets/images/clock.png" alt="Clock">
+                        <p>Service Times: Sundays at 7:30am, 10:45am, and 12:30pm</p>
+                    </div>
                 </div>
             </div>
         </div>
+
     </header>
+    <div class="headerBefore"></div>
 
     <section class="church-category">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <a href="">
+                    <a href="./pages/who-are-we.html">
                         <div class="church-category-text">
-                            <p>Lorem ipsum...</p>
+                            <p>Prayer Support</p>
                         </div>
                     </a>
-                    
+
                 </div>
                 <div class="col-sm-3">
-                    <a href="">
-                        <div class="church-category-text">
-                            <p>Lorem ipsum...</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3">
-                    <a href="">
-                        <div class="church-category-text">
-                            <p>Lorem ipsum...</p>
+                    <a href="./pages/event.html">
+                        <div class="church-category-group">
+                            <p>Zone</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="">
-                        <div class="church-category-text">
-                            <p>Lorem ipsum...</p>
+                    <a href="./pages/sermons.html">
+                        <div class="church-category-broadcast">
+                            <p>Sermon Broadcast</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="./pages/event.html">
+                        <div class="church-category-kids">
+                            <p>Kids Ministries</p>
                         </div>
                     </a>
                 </div>
@@ -94,23 +109,27 @@
         </div>
     </section>
 
-    <section class="who-are-we">
-        <div class="who-are-we-content">
-            <div class="container">
-                <div class="row">
-                    <div class="who-are-we-text col-sm-6">
+    <section>
+        <div class="who-are-we">
+            <div class="who-are-we-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="who-are-we-text col-sm-6">
                             <h2>Who Are We</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque voluptas aut cumque fuga minus exercitationem aspernatur optio iste aliquid. Sit unde earum non minima officiis quod illo mollitia fugiat.</p>
-                        <button><a href="#">Find out more</a></button>
-                    </div>
-                    <div class="who-are-we-video col-sm-6">
-                        <iframe frameborder="0" width= 100% height=300 src="https://www.youtube.com/embed/fFalmesXWMY">
-                        </iframe>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque voluptas aut
+                                cumque fuga minus exercitationem aspernatur optio iste aliquid. Sit unde earum non
+                                minima officiis quod illo mollitia fugiat.</p>
+                            <button><a href="./pages/who-are-we.html">Find out more</a></button>
+                        </div>
+                        <div class="who-are-we-video col-sm-6">
+                            <iframe frameborder="0" width=100% height=300
+                                src="https://www.youtube.com/embed/ntaQk2Rzg4I">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-       
     </section>
 
     <section class="upcoming-events">
@@ -120,27 +139,258 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <p>Lorem ipsum...</p>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://rccglg.org/wp-content/uploads/2019/02/Kings-and-Priests-3.jpg" alt="event">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-text-head">
+                                <h3>Men's Meeting</h3>
+                            </div>
+                            <div class="card-text-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi deserunt
+                                commodi, minima quae, magnam ut optio nisi ipsum amet molestias asperiores debitis modi
+                                dolor. Atque provident eaque repudiandae corrupti!
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-4">
-                    <p>Sed ut perspiciatis...</p>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/youth2.jpg" alt="event">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-text-head">
+                                <h3>Youth Annual Convention</h3>
+                            </div>
+                            <div class="card-text-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi deserunt
+                                commodi, minima quae, magnam ut optio nisi ipsum amet molestias asperiores debitis modi
+                                dolor. Atque provident eaque repudiandae corrupti!
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-4">
-                    <p>Lorem ipsum...</p>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/womenMeeting.jpg" alt="event">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-text-head">
+                                <h3>Women's Meeting</h3>
+                            </div>
+                            <div class="card-text-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi deserunt
+                                commodi, minima quae, magnam ut optio nisi ipsum amet molestias asperiores debitis modi
+                                dolor. Atque provident eaque repudiandae corrupti!
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <button><a href="">Find out more</a></button>
         </div>
     </section>
 
     <section class="up-to-date">
         <div class="container">
-                <div class="up-to-date-header">
-                    <h2>Stay up to date</h2>
-                </div>
-                <div class="up-to-date-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quo itaque, cupiditate quos mollitia culpa nam vero, numquam temporibus distinctio aut! Temporibus</p>
-                </div>
+            <div class="up-to-date-header">
+                <h2>Stay up to date</h2>
+            </div>
+            <div class="up-to-date-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quo itaque, cupiditate quos
+                    mollitia culpa</p>
+            </div>
+            <div class="up-to-date-input">
+                <form action="">
+                    <input type="text" placeholder="Email Address">
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
         </div>
     </section>
+
+    <section class="upcoming-events">
+        <div class="upcoming-events-header">
+            <h2>Latest Sermons</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://s3.amazonaws.com/churchplantmedia-cms/hillcountrybiblepflugerville/who-are-you-series.jpg"
+                                alt="event">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-text-head">
+                                <h3>Who are you?</h3>
+                            </div>
+                            <div class="card-text-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi deserunt
+                                commodi, minima quae, magnam ut optio nisi ipsum amet molestias asperiores debitis modi
+                                dolor. Atque provident eaque repudiandae corrupti!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://www.thepointebrandon.com/uploads/1/5/7/6/15762680/kingdom-come-1_2_orig.png"
+                                alt="event">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-text-head">
+                                <h3>Kingdom Come</h3>
+                            </div>
+                            <div class="card-text-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi deserunt
+                                commodi, minima quae, magnam ut optio nisi ipsum amet molestias asperiores debitis modi
+                                dolor. Atque provident eaque repudiandae corrupti!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://whchurch.org/wp-content/uploads/2017/05/Special_Make-Room-1.jpg"
+                                alt="event">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-text-head">
+                                <h3>Make Room</h3>
+                            </div>
+                            <div class="card-text-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi deserunt
+                                commodi, minima quae, magnam ut optio nisi ipsum amet molestias asperiores debitis modi
+                                dolor. Atque provident eaque repudiandae corrupti!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button><a href="./pages/sermons.html">Load more</a></button>
+        </div>
+    </section>
+
+    <section class="social-media">
+        <div class="container">
+            <div class="up-to-date-header">
+                <h2>Social Links</h2>
+            </div>
+            <div class="social-media-list">
+                <div class="social-media-icon">
+                    <a href="https://www.instagram.com/bethelbchq">
+                        <div>
+                            <img src="./assets/images/instagram.png" alt="instagram">
+                        </div>
+                    </a>
+                </div>
+                <div class="social-media-icon">
+                    <a href="https://twitter.com/bethelbchq">
+                        <div>
+                            <img src="./assets/images/twitter.png" alt="twitter">
+                        </div>
+                    </a>
+                </div>
+                <div class="social-media-icon">
+                    <a href="https://facebook.com/bethelbchq">
+                        <div>
+                            <img src="./assets/images/facebook.png" alt="facebook">
+                        </div>
+                    </a>
+                </div>
+                <div class="social-media-icon">
+                    <a
+                        href="https://www.google.com/search?q=bethel+bible+church&oq=bethe&aqs=chrome.0.69i59l2j69i60j69i57j69i60j69i61.1328j0j9&sourceid=chrome&ie=UTF-8">
+                        <div>
+                            <img src="./assets/images/google.png" alt="google">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="mapouter">
+            <div><iframe id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=bethel%20bible%20church%20surulere%20lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://www.crocothemes.net"></a>
+            </div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 600px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 600px;
+                }
+            </style>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-nav">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Bethel Bible Church</a>
+                    </div>
+                    <div class="navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav custom-nav">
+                            <li style="margin-top: 0"><a href="./index.html">Home</a></li>
+                            <li style="margin-top: 0"><a href="./pages/sermons.html">Sermons</a></li>
+                            <li style="margin-top: 0"><a href="./pages/who-are-we.html">Who We Are</a></li>
+                            <li style="margin-top: 0"><a href="./pages/event.html">Events</a></li>
+                            <!-- <li><a href="./pages/staff.html">Staff</a></li>  -->
+                            <li style="margin-top: 0"><a href="./pages/contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="footer-proper">
+            Copyright 2019.
+        </div>
+    </footer>
+    <script type="text/javascript">
+        var images = ["./assets/images/t-steele-1526726-unsplash.jpg",
+            "https://images.unsplash.com/photo-1491396023581-4344e51fec5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80",
+            "https://images.unsplash.com/photo-1467071114456-dddb1d7b4842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
+        ];
+        let currentImage = 0;
+
+        function changeBackground() {
+            // $( `<style>.header:before { border-top-width: " + value + "px; }</style> ).appendTo( "head" )
+            // $('.headerBefore').fadeTo(1000, 1, function () {
+            $('.headerBefore').css({
+                "background": 'linear-gradient(rgba(129, 69, 0, 0.219),rgba(129, 69, 0, 0.219)),url(' +
+                    images[
+                        currentImage++] + ')',
+                "background-size": "cover",
+                "background-repeat": "no-repeat",
+            });
+            // })
+            if (currentImage > images.length - 1) {
+                currentImage -= images.length;
+            }
+            setTimeout(changeBackground, 5000);
+        }
+        setTimeout(changeBackground, 2000);
+    </script>
 </body>
+
 </html>
